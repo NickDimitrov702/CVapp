@@ -18,11 +18,23 @@ skill.forEach((skillContainer) => {
 
       if (e.target.children) {
         if (e.target.children[0] === undefined) {
+          labele.style.opacity = 0;
+          // labele.innerHTML = e.target.innerHTML;
+
+          setTimeout(() => {
           labele.innerHTML = e.target.innerHTML;
+          labele.style.opacity = 1;
+          },300)
         }
 
         if (e.target.children[0]) {
-          labele.innerHTML = e.target.children[0].innerHTML;
+          labele.style.opacity = 0;
+          // labele.innerHTML = e.target.innerHTML;
+
+          setTimeout(() => {
+          labele.innerHTML = e.target.innerHTML;
+          labele.style.opacity = 1;
+          },300)
         }
       }
 
@@ -30,6 +42,7 @@ skill.forEach((skillContainer) => {
         skillDescription.style.opacity = "0";
         skillDescription.style.visibility = "hidden";
         labele.innerHTML = "TECHNICAL SKILLS";
+        
       });
     });
   }
