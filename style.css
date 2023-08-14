@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@200;300;400;500;900&display=swap");
+:root {
+  --layout-color: rgb(252, 252, 252);
+  --text-color: rgb(25, 39, 60);
+  --span-company-title-text: rgb(73, 110, 213);
+  --label-text: rgb(133, 134, 140);
+  --border-color: rgb(178, 180, 182);
+  --details-text: rgb(73, 73, 73);
+}
+
+* {
+  /* padding: 0px; */
+  margin: auto;
+  max-width: 1460px;
+  height: auto;
+  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.cv-column {
+  margin: 0px auto;
+  height: 100%;
+  padding: 0px 10px 0px 10px;
+}
+
+.border {
+  height: 1px;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.fa {
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.location {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+#phone {
+  margin-left: 3px;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--layout-color);
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background-color: aliceblue;
+}
+
+.name-title-container {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+
+.contacts-container {
+  display: flex;
+  width: 100%;
+  margin: 0px;
+}
+
+.contacts {
+  position: relative;
+  height: 2px;
+  background-color: aliceblue;
+
+  transform: scale(1);
+  transition: 0.2s all ease-out;
+}
+
+.contacts {
+  width: auto;
+  height: 30px;
+  font-size: 13px;
+  justify-content: space-between;
+  margin: 10px;
+  transition: 0.2s;
+  color: black;
+  border-bottom: 0px solid black;
+}
+
+.contacts a {
+  margin: 0px;
+  text-decoration: none;
+  color: black;
+}
+
+.contacts:hover {
+  transform: scale(1.3);
+  z-index: 1;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.contacts a:hover {
+  text-shadow: -1px 3px 5px rgba(73, 110, 213, 0.83);
+}
+
+.name-title-container span {
+  color: var(--span-company-title-text);
+  margin: 10px 0px 10px 0px;
+  font-size: 16px;
+}
+
+/* experience-container */
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+}
+
+.details-container {
+  max-width: 600px;
+  margin-left: 0px;
+  padding: 0px 0px 0px 10px;
+  color: var(--details-text);
+}
+
+.details-container:hover {
+}
+
+.summary-content,
+.company-description,
+.bulletpoints-container {
+  border-top: 2px solid var(--border-color);
+  font-size: 15px;
+  line-height: 16px;
+  width: 100%;
+  max-width: 600px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.company-name {
+  color: var(--span-company-title-text);
+}
+
+.info-container {
+  margin: 5px;
+}
+
+.company-description {
+  margin: 10px auto;
+}
+
+.dates {
+  width: 100%;
+}
+
+.location span {
+  margin: 0px;
+}
+
+.dates-location-container {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+.company-description,
+.bulletpoints-container,
+.info-container {
+  border: none;
+}
+
+.job-title {
+  font-size: 15px;
+}
+
+/* Skills Hobby Education */
+
+.skills-container,
+.key-achievements-container {
+  max-width: 1346px;
+  width: 100%;
+  height: auto;
+  /* background-color: black; */
+  border-top: 2px solid var(--border-color);
+}
+
+.skills {
+  max-width: 600px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 0px;
+  width: 100%;
+  /* height: 155px; */
+}
+
+.skill-container {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  display: flex;
+  margin: 15px;
+  border-bottom: 1.7px solid var(--border-color);
+}
+
+.skill-container:hover {
+  cursor: pointer;
+}
+
+
+.skills span {
+  /* margin: 10px auto; */
+  max-width: 200px;
+  font-size: 15px;
+  padding: 0px;
+}
+
+.achievement-label {
+  color: var(--span-company-title-text);
+}
+
+.achievement-container {
+  margin: 20px;
+}
+
+.proud-of-container label {
+  color: var(--details-text);
+}
+
+.proud-of-content,
+.education-content,
+.projects {
+  border-top: 2px solid var(--border-color);
+  padding: 20px;
+}
+
+.proud-of-content p {
+  margin: 10px 0px;
+}
+
+/* Test Skills Hover */
+
+.description-container {
+  display: none;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  background-color: aliceblue;
+  padding: 10px;
+  transition: opacity 0.6s ease-out, visibility 0.3s linear 0.2s; 
+}
+
+

@@ -1,0 +1,30 @@
+Section for the technologies. 
+ For each technology prepare a project that significantly shows 
+the used techinques and skills. Example. 
+ - HTML & CSS - Create a project that shows your skills in HTML and CSS. 
+ - Semantic mark up, comments, well sstructured CSS and easally maintained. 
+   - TO DO: Get all of the best practicies for HTML semantic and CSS - Apply them to the projects. 
+   - TO DO: Go trough some of your old projects and see what you can find and use. 
+   - TO DO: Purge your GITHUB, make it prietier.
+
+Section projects: 
+  - TO DO: for each project to be a presentation similar to the technologies.
+  left side will be the container for the projects visuasl or iframe (stil under question),
+  on the right side there will be description for the projects. 
+  - Description for the project for now can include short description and 
+  included link for a documentation. To include also the technologies used, and if possible time tracked on 
+  ClickUp
+  -TO DO: Create an effect for scrolling down and a line to follow the scroll. 
+    - Either some effect of changing colors or deleting the line ones you pass by a certain 
+    point of the page while scrolling.
+
+
+Section for Work Experience: 
+   - TO DO: Take your relevant experience from your Euro standart CV.
+      - Create the page with the same layout as the other pages. 
+      - On the left Work experience with information about the company, how many years. 
+      On the right, job Description. 
+      In the Work Experience section at the bottom leave a place for the relevant Courses and experience related to front end. 
+
+      
+       
