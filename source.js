@@ -2,6 +2,9 @@ let skill = document.querySelectorAll(".skill-container");
 let skillDescription = document.querySelector(".description-container");
 let skills = document.querySelector(".skills");
 let labele = document.querySelector(".technical-skills");
+let contacts = document.querySelectorAll('.contacts')
+
+
 
 skill.forEach((skillContainer) => {
   const description = skillContainer.getAttribute("data-description");
@@ -24,7 +27,7 @@ skill.forEach((skillContainer) => {
           setTimeout(() => {
           labele.innerHTML = e.target.innerHTML;
           labele.style.opacity = 1;
-          },300)
+          },190)
         }
 
         if (e.target.children[0]) {
@@ -34,7 +37,7 @@ skill.forEach((skillContainer) => {
           setTimeout(() => {
           labele.innerHTML = e.target.innerHTML;
           labele.style.opacity = 1;
-          },300)
+          },190)
         }
       }
 

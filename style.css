@@ -267,3 +267,63 @@ header {
   padding: 10px;
   transition: opacity 0.4s ease-out, visibility 0.4s linear 0.4;
 }
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+  .name-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contacts-container {
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .contacts a {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .contacts i {
+    font-size: 30px;
+  }
+
+  /* main mobile style */
+
+  main {
+    flex-direction: column;
+  }
+
+  .summary-content,
+  .company-description,
+  .bulletpoints-container {
+    text-align: start;
+    line-height: 18px;
+    letter-spacing: 0.9px;
+  }
+  
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dates-location-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dates-location-container{
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .dates {
+    width: 100%;
+  }
+}
